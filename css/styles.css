@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'jaapokki_4regularWEB';
+    src: url('../jaapokki-regular.eot');
+    src: url('../jaapokki-regular.eot') format('embedded-opentype'),
+        url('../jaapokki-regular.woff') format('woff'),
+        url('../jaapokki-regular.ttf') format('truetype'),
+        url('../jaapokki-regular.svg#JaapokkiRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'JaapokkisubtractRegular';
+    src: url('../jaapokkisubtract-regular.eot');
+    src: url('../jaapokkisubtract-regular.eot') format('embedded-opentype'),
+        url('../jaapokkisubtract-regular.woff') format('woff'),
+        url('../jaapokkisubtract-regular.ttf') format('truetype'),
+        url('../jaapokkisubtract-regular.svg#JaapokkisubtractRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'JaapokkienchanceRegular';
+    src: url('../jaapokkienchance-regular.eot');
+    src: url('../jaapokkienchance-regular.eot') format('embedded-opentype'),
+        url('../jaapokkienchance-regular.woff') format('woff'),
+        url('../jaapokkienchance-regular.ttf') format('truetype'),
+        url('../jaapokkienchance-regular.svg#JaapokkienchanceRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'JaapokkiRegular';
+    src: url('../jaapokki-regular.eot');
+    src: url('../jaapokki-regular.eot') format('embedded-opentype'),
+        url('../jaapokki-regular.woff') format('woff'),
+        url('../jaapokki-regular.ttf') format('truetype'),
+        url('../jaapokki-regular.svg#JaapokkiRegular') format('svg');
+}
+
+p {
+    font-family: JaapokkiRegular;
+}
+
+h1,
+h2,
+h3 {
+    font-family: JaapokkienchanceRegular;
+}
+
+.tab-pane h3 {
+    font-family: JaapokkisubtractRegular;
+}
+
+.info p a {
+    color: #888;
+}
+
+h4,
+h5,
+h6 {
+    font-family: JaapokkisubtractRegular;
+}
+
+::placeholder,
+label,
+nav,
+.copyright{
+    font-family: JaapokkiRegular;
+}
+
+button,
+.btn {
+    font-family: JaapokkisubtractRegular;
+}

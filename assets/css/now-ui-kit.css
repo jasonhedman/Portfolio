@@ -14,6 +14,9 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
+@font-face {
+  font-family: regularFont;
+  src: url(jaapokki-regular.woff); }
 /*     brand Colors              */
 /*      light colors         */
 /* ========================================================================
@@ -2201,7 +2204,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+  font-family: regularFont, "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
@@ -2248,13 +2251,11 @@ h5, .h5 {
     font-weight: 400; }
 
 h6, .h6 {
-  font-size: 0.9em;
-  font-weight: 700;
-  text-transform: uppercase; }
+  font-weight: 700; }
 
 p {
   line-height: 1.61em;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1.2em; }
 
 .title {
@@ -2326,7 +2327,7 @@ p {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-family: regularFont, "Montserrat", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
@@ -4212,7 +4213,7 @@ img {
 .media textarea {
   margin-bottom: 20px; }
 .media .media-heading small {
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
+  font-family: regularFont, "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 .media .media-body {
   padding-right: 10px; }
   .media .media-body .media .media-body {
@@ -6236,14 +6237,6 @@ img {
     .navbar-collapse:before {
       background: #22262B;
       /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#22262B 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#22262B 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#22262B 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#22262B 0%, #000 80%);
-      /* Standard syntax (must be last) */
       opacity: 0.76;
       filter: alpha(opacity=76);
       display: block;
@@ -6495,14 +6488,6 @@ img {
     .burger-menu .navbar-collapse:before {
       background: #22262B;
       /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(#22262B 0%, #000 80%);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#22262B 0%, #000 80%);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#22262B 0%, #000 80%);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#22262B 0%, #000 80%);
-      /* Standard syntax (must be last) */
       opacity: 0.76;
       filter: alpha(opacity=76);
       display: block;
