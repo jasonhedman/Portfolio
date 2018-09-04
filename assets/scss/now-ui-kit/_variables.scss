@@ -56,25 +56,25 @@ $primary-states-color:       lighten($primary-color, 6%) !default;
 $primary-color-opacity:      rgba(34, 38, 43, .3) !default;
 $primary-color-alert:        rgba(34, 38, 43, .8) !default;
 
-$success-color:              #247690 !default;
+$success-color:              #193d49 !default;
 $success-states-color:       lighten($success-color, 6%) !default;
-$success-color-opacity:      rgba(36, 118, 144, .3) !default;
-$success-color-alert:        rgba(36, 118, 144, .8) !default;
+$success-color-opacity:      rgba(25,61,73, .3) !default;
+$success-color-alert:        rgba(25,61,73, .8) !default;
 
-$info-color:                 #083D4B !default;
+$info-color:                 #ccc487 !default;
 $info-states-color:          lighten($info-color, 6%) !default;
-$info-color-opacity:         rgba(8, 61, 75, .3) !default;
-$info-color-alert:           rgba(8, 61, 75, .8) !default;
+$info-color-opacity:         rgba(204,196,135, .3) !default;
+$info-color-alert:           rgba(204,196,135, .8) !default;
 
-$warning-color:              #FFB236 !default;
+$warning-color:              #9e7a42 !default;
 $warning-states-color:       lighten($warning-color, 6%) !default;
-$warning-color-opacity:      rgba(255, 178, 54, .3) !default;
-$warning-color-alert:        rgba(255, 178, 54, .8) !default;
+$warning-color-opacity:      rgba(158,122,66, .3) !default;
+$warning-color-alert:        rgba(158,122,66, .8) !default;
 
-$danger-color:               #FF3636 !default;
+$danger-color:               #8d353c !default;
 $danger-states-color:        lighten($danger-color, 6%) !default;
-$danger-color-opacity:       rgba(255, 54, 54, .3) !default;
-$danger-color-alert:         rgba(255, 54, 54, .8) !default;
+$danger-color-opacity:       rgba(141,53,60, .3) !default;
+$danger-color-alert:         rgba(141,53,60, .8) !default;
 
 /*     brand Colors              */
 $brand-primary:              $primary-color !default;
